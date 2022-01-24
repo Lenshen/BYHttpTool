@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BYHttpTool_Example' do
+  pod 'BYHttpTool', :path => '../'
+
+  target 'BYHttpTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
