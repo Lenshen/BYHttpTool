@@ -1,0 +1,6 @@
+framework module BYHttpTool {
+  umbrella header "BYHttpTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

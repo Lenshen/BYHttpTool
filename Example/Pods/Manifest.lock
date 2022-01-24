@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BYHttpTool (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - Alamofire
+  - BYHttpTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  BYHttpTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BYHttpTool: c849b7ea8b667daf0bab1c351df8b68de8bb9734
+
+PODFILE CHECKSUM: 16969a7382d11e24b29d557e06010ef380b311c9
+
+COCOAPODS: 1.11.2
