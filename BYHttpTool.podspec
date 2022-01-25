@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 一款基于Alamofire-4.9.1，和codeable封装的网络请求库BYHttpTool,只有get和post请求，后续还会更近.
                        DESC
 
-  s.homepage         = 'https://github.com/Lenshen/BYHttpTool.git'
+  s.homepage         = 'https://github.com/Lenshen/BYHttpTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'baoyuanshen' => '779822644@qq.com' }
-  s.source           = { :git => 'https://github.com/Lenshen/BYHttpTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Lenshen/BYHttpTool', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
