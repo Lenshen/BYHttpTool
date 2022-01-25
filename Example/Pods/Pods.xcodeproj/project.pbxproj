@@ -109,7 +109,7 @@
 		9A6F3C69A785D47B340200715EC3F100 /* Pods-BYHttpTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BYHttpTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F3A8C2B06A0172D2A473B27CA1FD405 /* Pods-BYHttpTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BYHttpTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A257A495574E9342BCFF51D0CAB18B70 /* BYHttpTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BYHttpTool; path = BYHttpTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A257A495574E9342BCFF51D0CAB18B70 /* BYHttpTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BYHttpTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		A39BA855ACDE1B98111B5EAFFFF522E0 /* Pods-BYHttpTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BYHttpTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				A257A495574E9342BCFF51D0CAB18B70 /* BYHttpTool */,
+				A257A495574E9342BCFF51D0CAB18B70 /* BYHttpTool.framework */,
 				34B77FF4BFD390E7B807A8C72AE07335 /* Pods-BYHttpTool_Example */,
 				23D953757083EBFBAE208F4E920D38CB /* Pods-BYHttpTool_Tests */,
 			);
@@ -394,7 +394,7 @@
 			);
 			name = BYHttpTool;
 			productName = BYHttpTool;
-			productReference = A257A495574E9342BCFF51D0CAB18B70 /* BYHttpTool */;
+			productReference = A257A495574E9342BCFF51D0CAB18B70 /* BYHttpTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C657EFBA3A5FE36DA0AEECBEBA69AB42 /* Pods-BYHttpTool_Tests */ = {
@@ -840,6 +840,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
 				MODULEMAP_FILE = "Target Support Files/BYHttpTool/BYHttpTool.modulemap";
 				PRODUCT_MODULE_NAME = BYHttpTool;
 				PRODUCT_NAME = BYHttpTool;
@@ -962,6 +963,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.0.1;
 				MODULEMAP_FILE = "Target Support Files/BYHttpTool/BYHttpTool.modulemap";
 				PRODUCT_MODULE_NAME = BYHttpTool;
 				PRODUCT_NAME = BYHttpTool;
