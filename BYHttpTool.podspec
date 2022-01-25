@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BYHttpTool'
-  s.version          = '0.0.1'
+  s.version          = '0.0.11'
   s.summary          = '一款基于Alamofire-4.9.1，和codeable封装的网络请求库BYHttpTool.'
 
 # This description is used to generate tags and improve search results.
